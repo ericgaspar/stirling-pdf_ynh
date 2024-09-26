@@ -63,7 +63,7 @@ ram.runtime = "50M"
         autoupdate.upstream = "https://github.com/adoptium/temurin21-binaries"
         autoupdate.asset.amd64 = "OpenJDK.*-jdk_x64_linux_hotspot_.*\\.tar\\.gz$"
         autoupdate.asset.arm64 = "OpenJDK.*-jdk_aarch64_linux_hotspot_.*\\.tar\\.gz$"
-        
+
     [resources.system_user]
 
     [resources.install_dir]
@@ -76,4 +76,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "tesseract-ocr-fra, openjdk-21-jdk"
+    packages = "tesseract-ocr-fra"
